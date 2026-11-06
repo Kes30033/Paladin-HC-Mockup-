@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Contact and Find a Rep | Paladin Healthcare</title>
+<meta name="description" content="Find your Paladin Healthcare rep by state, or contact the US, Europe, or Middle East offices.">
+<link rel="icon" href="assets/img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body data-page="contact">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.8-3.8"/></symbol>
+<symbol id="i-doc" viewBox="0 0 24 24"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h6"/></symbol>
+<symbol id="i-part" viewBox="0 0 24 24"><path d="M3 6h18M3 10h18"/><path d="M7 10v3M17 10v3"/><rect x="5" y="13" width="14" height="8" rx="1"/></symbol>
+<symbol id="i-photo" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="m21 16-5-5L6 20"/></symbol>
+<symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></symbol>
+<symbol id="i-out" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9"/><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></symbol>
+<symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+<symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+<symbol id="i-filter" viewBox="0 0 24 24"><path d="M4 6h16M7 12h10M10 18h4"/></symbol>
+<symbol id="i-play" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m10 9 5 3-5 3z"/></symbol>
+</defs></svg>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="wrap head-row">
+    <a class="brand" href="index.html"><img src="assets/img/logo.png" alt="Paladin Healthcare home" width="1600" height="367"></a>
+    <nav id="site-nav" class="site-nav" aria-label="Main"><a href="products.html">Products</a><a href="resources.html">Resources</a><a href="projects.html">Projects</a><a href="va-dha.html">VA / DHA</a><a href="about.html">About</a><a href="news.html">News &amp; Events</a></nav>
+    <div class="head-end">
+      <a class="btn btn-primary" href="contact.html">Contact</a>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav"><svg class="ico" aria-hidden="true"><use href="#i-menu"></use></svg>Menu</button>
+    </div>
+    <form class="site-search" action="search.html" role="search">
+      <svg class="ico" aria-hidden="true"><use href="#i-search"></use></svg>
+      <label class="sr" for="site-q">Search parts, documents, and people</label>
+      <input id="site-q" name="q" type="search" placeholder="Part number or keyword">
+    </form>
+  </div>
+</header>
+<main id="main">
+<section class="page-head"><div class="wrap"><h1>Talk to the right person</h1><p class="lead">Your regional rep can help with quotes, drawings, and product questions. Pick your state below.</p></div></section><div class="rail" aria-hidden="true"></div>
+<section class="section" style="padding-top:32px"><div class="wrap finder">
+  <div>
+    <h2 style="margin-bottom:14px;font-size:1.5rem">Find your rep</h2>
+    <div class="field" style="max-width:320px;margin-bottom:14px"><label for="state-select">Your state</label><select id="state-select"></select></div>
+    <div class="usmap" id="usmap" role="group" aria-label="Or choose a state on the map"></div>
+    <div class="map-key"><span><i style="background:var(--blue-tint)"></i>Rep listed</span><span><i style="background:var(--soft);border:1px solid var(--line)"></i>Main office covers</span></div>
+  </div>
+  <div>
+    <div id="rep-result" aria-live="polite"></div>
+    <div class="note-box" style="margin-top:18px"><h3>Not looking for a state rep?</h3><ul style="margin-top:6px"><li style="margin-bottom:4px"><a href="#offices">Europe and Middle East offices</a></li><li style="margin-bottom:4px"><a href="va-dha.html">VA / DHA and government buyers</a></li><li><a href="#message">General questions</a></li></ul></div>
+  </div>
+</div></section>
+<section class="section soft" id="offices"><div class="wrap">
+  <h2 style="margin-bottom:20px">Offices</h2>
+  <div class="offices">
+    <div><h3>Headquarters and showroom</h3><p>Paladin Healthcare LLC<br><a href="https://maps.app.goo.gl/5KkXFRroe8422ZCu7" target="_blank" rel="noopener">940 W. Oakland Avenue, Suite A1<br>Oakland, FL 34787, USA</a></p><p class="hl"><a href="tel:+14076148781">+1 407-614-8781</a><br><a href="mailto:info@paladinhc.com">info@paladinhc.com</a></p><p>Fax 407-614-8782<br>Mon to Fri, 8:00am to 5:00pm EST</p></div>
+    <div><h3>Warehouse</h3><p>Paladin Healthcare LLC<br><a href="https://maps.app.goo.gl/PZ9tV2fYc4VVFD7o7" target="_blank" rel="noopener">2780 N John Young Parkway<br>Kissimmee, FL 34741, USA</a></p><p>Mon to Fri, 7:00am to 3:30pm EST</p></div>
+    <div><h3>Europe</h3><p>Paladin Healthcare Europe<br><a href="https://maps.app.goo.gl/HmfqbdatNKFxN4iJ8" target="_blank" rel="noopener">Hechinger Str. 11<br>72401 Haigerloch, Germany</a></p><p class="hl"><a href="tel:+4974749189541">+49 7474 9189541</a><br><a href="mailto:europe@paladinhc.com">europe@paladinhc.com</a></p></div>
+    <div><h3>Middle East</h3><p>NMG-INTERNATIONAL S.A.L.</p><p class="hl"><a href="tel:+14076148781">+1 407-614-8781</a><br><a href="mailto:sales@paladinhc.com">sales@paladinhc.com</a></p></div>
+  </div>
+</div></section>
+<section class="section" id="message"><div class="wrap two top">
+  <div>
+    <h2 style="margin-bottom:6px">Send a message</h2>
+    <p style="color:var(--muted);margin-bottom:18px">Quotes, technical questions, or a Lunch &amp; Learn request. We will route it to the right person.</p>
+    <form id="contact-form" class="form-grid">
+      <div class="field"><label for="f-name">Name</label><input id="f-name" name="name" required autocomplete="name"></div>
+      <div class="field"><label for="f-org">Company or facility</label><input id="f-org" name="org" autocomplete="organization"></div>
+      <div class="field"><label for="f-email">Email</label><input id="f-email" name="email" type="email" required autocomplete="email"></div>
+      <div class="field"><label for="f-phone">Phone</label><input id="f-phone" name="phone" type="tel" autocomplete="tel"></div>
+      <div class="field wide"><label for="f-topic">What is this about?</label><select id="f-topic" name="topic"><option>Quote or order</option><option>Technical or spec question</option><option>Lunch &amp; Learn</option><option>VA / DHA or government</option><option>Something else</option></select></div>
+      <div class="field wide"><label for="f-msg">Message</label><textarea id="f-msg" name="message" rows="5"></textarea></div>
+      <div class="wide"><button class="btn btn-primary" type="submit">Send message</button><div id="form-status" style="margin-top:12px"></div></div>
+    </form>
+  </div>
+  <div>
+    <div class="note-box"><h3>Need something now?</h3><p>Spec sheets and installation guides are all in the <a href="resources.html">Resources library</a>, with no form to fill out.</p></div>
+    <img class="photo" style="margin-top:18px" src="assets/img/tradeshow.jpg" alt="The Paladin team at a trade show booth" loading="lazy">
+  </div>
+</div></section>
+<section class="section soft" id="team"><div class="wrap">
+  <h2 style="margin-bottom:6px">The team</h2>
+  <p style="color:var(--muted);margin-bottom:20px">Direct phone numbers and email for everyone on the team.</p>
+  <h3 style="margin-bottom:12px">Regional sales</h3><div class="team-grid" id="team-field"></div>
+  <h3 style="margin:26px 0 12px">Headquarters</h3><div class="team-grid" id="team-office"></div>
+</div></section>
+</main>
+<footer class="site-foot">
+  <div class="rail" aria-hidden="true"></div>
+  <div class="wrap foot-grid">
+    <div class="foot-brand">
+      <img src="assets/img/logo.png" alt="Paladin Healthcare" width="1600" height="367" loading="lazy">
+      <p>“If it’s on a wall, it’s on a Rail.”® Excellence in clinical environments, from design to delivery.</p>
+    </div>
+    <nav aria-label="Products"><h2>Products</h2><ul>
+      <li><a href="products.html">All products</a></li>
+      <li><a href="systems.html">Compare rail systems</a></li>
+      <li><a href="products.html?group=Headwalls">Headwalls</a></li>
+      <li><a href="products.html?rail=hillrom">Hill-Rom accessories</a></li>
+      <li><a href="va-dha.html">VA / DHA</a></li>
+    </ul></nav>
+    <nav aria-label="Resources"><h2>Resources</h2><ul>
+      <li><a href="resources.html">Document library</a></li>
+      <li><a href="resources.html?type=Spec+sheet">Spec sheets</a></li>
+      <li><a href="resources.html?type=Installation">Installation guides</a></li>
+      <li><a href="resources.html?type=video">Videos</a></li>
+      <li><a href="news.html#lunch-learns">Lunch &amp; Learns</a></li>
+    </ul></nav>
+    <nav aria-label="Company"><h2>Company</h2><ul>
+      <li><a href="about.html">About Paladin</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="news.html">News &amp; events</a></li>
+      <li><a href="contact.html">Find my rep</a></li>
+    </ul></nav>
+    <div class="foot-contact">
+      <h2>Talk to us</h2>
+      <p class="big"><a href="tel:+14076148781">407-614-8781</a></p>
+      <p><a href="mailto:info@paladinhc.com">info@paladinhc.com</a></p>
+      <p>940 W. Oakland Avenue, Suite A1<br>Oakland, FL 34787</p>
+      <form class="foot-news" aria-label="Newsletter signup">
+        <label class="sr" for="news-email">Email for newsletter</label>
+        <input id="news-email" type="email" placeholder="Newsletter: your email" required>
+        <button type="submit">Join</button>
+      </form>
+    </div>
+  </div>
+  <div class="wrap foot-base">
+    <span>© 2026 Paladin Healthcare, LLC. All rights reserved.</span>
+    <span class="links">
+      <a href="privacy.html">Privacy</a><a href="terms.html">Terms</a>
+      <a href="https://www.linkedin.com/company/paladin-healthcare-llc" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://www.youtube.com/@PaladinhcLLC" target="_blank" rel="noopener">YouTube</a>
+      <a href="https://www.facebook.com/paladinhc/" target="_blank" rel="noopener">Facebook</a>
+      <a href="https://www.instagram.com/paladin_healthcare_llc/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://twitter.com/PaladinHC1" target="_blank" rel="noopener">X</a>
+    </span>
+  </div>
+  <div class="review"><div class="wrap">
+    <span>Review mockup, not the live Paladin Healthcare site. Forms are not connected. <a href="review-notes.html">Read the review notes</a></span>
+    <span>Web designed by Adventure Vibrant</span>
+  </div></div>
+</footer>
+<script src="assets/data/team.js"></script>
+<script src="assets/js/site.js"></script>
+<script src="assets/js/page-contact.js"></script>
+</body>
+</html>
