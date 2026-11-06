@@ -429,7 +429,8 @@ dialog.lightbox::backdrop { background: rgba(10, 9, 36, .86); }
   .foot-brand, .foot-contact { grid-column: span 3; }
   .foot-brand { display: block; }
 }
-@media (max-width: 1020px) {
+/* The header needs more room than the page content, so it collapses first. */
+@media (max-width: 1080px) {
   .head-row { flex-wrap: wrap; gap: 10px 14px; min-height: 64px; padding-block: 10px; }
   .menu-btn { display: inline-flex; }
   .head-end { margin-left: auto; }
@@ -439,6 +440,8 @@ dialog.lightbox::backdrop { background: rgba(10, 9, 36, .86); }
   .site-nav a { padding: 12px 10px; font-size: 1.02rem; border-bottom: 1px solid var(--soft); border-radius: 0; }
   .site-nav a[aria-current="page"] { box-shadow: inset 4px 0 0 var(--red); }
   .site-search.in-menu { display: block; width: 100%; order: 4; flex-basis: 100%; }
+}
+@media (max-width: 1020px) {
   .hero-grid { grid-template-columns: 1fr; }
   .hero-copy { padding-inline: var(--gutter); }
   .hero-photo { min-height: 240px; height: 42vw; }
