@@ -1,12 +1,14 @@
 # Paladin Healthcare website mockup
 
+**Live site: https://kes30033.github.io/Paladin-HC-Mockup-/**
+
 Review mockup of a simpler [paladinhc.com](https://www.paladinhc.com). It keeps all the live site's products, documents, photos, articles, and contacts, and puts them in far fewer places. Page intros and button labels are new and need Paladin's approval. Nothing here is the live site.
 
 Plain HTML, CSS, and JavaScript with no build step. The review notes (`review-notes.html`) cover what changed, where each old page went, the problems found on the live site, and what Paladin needs to decide.
 
 ## Edit on a computer
 
-For people working on the site's code.
+For people working on the site's code. To view the site, use the live link above.
 
 ```bash
 python3 -m http.server 4173
